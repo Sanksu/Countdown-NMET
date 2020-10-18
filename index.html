@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+</head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <title>二〇二三年高考倒计时</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" href="img/avatar.png">
+</head>
+
+<body oncontextmenu='return false;' onkeydown='return false;' onmousedown='return false;'>
+    <div id="@fredricls" class="telek">
+        <div id="box">
+        <!-- 个人资料卡片 -->
+            <div class="Card">
+            <!-- 头像 -->
+                <div class="Photo"></div>
+            <!-- 介绍 -->
+                <div class="Card-title">
+                    <p>I'm 3Stones</p>
+                <div class="fg"></div>
+            </div>
+            <div class="Card-text">
+                <p>一条咸鱼</p>
+            </div>
+            <!-- 三个按钮 -->
+            <div class="Card-Button">
+                <a href="https://tangsanshi.top/">Blog</a>
+                <a href="mailto:870889277@qq.com">E-Mail</a>
+                <a href="https://tangsanshi.top/merger">Merger</a>
+            </div>
+            <button onclick="document.getElementById('@fredricls').style.display='none'" type="submit">X</button>
+        </div>
+    </div>
+    </div>
+    <script>
+        var telek = document.getElementById('@fredricls');
+        window.onclick = function(event) {
+            if (event.target == telek) {
+                telek.style.display = "none";
+            }
+        }
+    </script>
+    <div id="top">
+        <div class="topleft">
+            <button onclick="document.getElementById('@fredricls').style.display='block'" style="width:auto;">About</button>
+        </div>
+	<center>
+		<div id="countdown">
+			<div class="middle">
+				<h1>距离二〇二三年高考还有</h1>
+				<h2><i><div id="Timedown"></div><i></h2>
+			</div>
+		</div>
+	</center>
+<script src="js/Timedown.js"></script>
+<script type="text/javascript">
+	TimeDown("Timedown", "2023/6/07 08:00:00");
+</script>
+<div id="footer">
+	<p>© 2020 3Stone</p>
+</div>
+</body>
+</html>

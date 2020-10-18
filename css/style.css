@@ -1,0 +1,176 @@
+body {
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#box {
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    padding-top: 5%;
+}
+
+.Card {
+    float: left;
+    width: 20rem;
+    height: 25rem;
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 8%;
+    border-radius: 5%;
+    transition: all 0.3s;
+    text-align: center;
+}
+
+.Photo {
+    width: 8rem;
+    height: 8rem;
+    background: url(../img/avatar.png);
+    background-size: cover;
+    border-radius: 50%;
+    position: relative;
+    top: -15%;
+    left: 50%;
+    margin-left: -4rem;
+    transition: all 0.3s;
+}
+
+.Photo:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.Card-title {
+    width: auto;
+    margin: 0 auto;
+}
+
+.Card-title p {
+    font-size: 1.2rem;
+    width: 12ch;
+    overflow: hidden;
+    margin: -30px 0 0 90px;
+    transition: all 0.3s;
+}
+
+.Card-title .fg {
+    width: 80%;
+    height: 2px;
+    background-image: linear-gradient(to left, #3498db, #2980b9);
+    margin: 5% 0 0 10%;
+}
+
+.Card-text {
+    width: 80%;
+    height: 45%;
+    overflow: hidden;
+    text-align: center;
+    color: rgb(70, 70, 70);
+    margin: 5% 0 0 10%;
+    transition: all 0.3s;
+}
+
+.Card-text p {
+    margin-top: 5px;
+}
+
+.Card-Button {
+    width: 100%;
+}
+
+.Card-Button a {
+    display: inline-block;
+    float: left;
+    width: 33.3%;
+    height: 50px;
+    margin-top: 13px;
+    line-height: 50px;
+    text-decoration: none;
+    color: gray;
+    transition: all 0.3s;
+}
+
+.Card-Button a:hover {
+    color: rgb(0, 132, 255);
+    font-size: 1.2rem;
+}
+
+#countdown
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(255, 255, 255)
+}
+
+.middle h1 {
+    font-family: Kaiti, STKaiti;
+    font-size: 2.4rem;
+}
+
+.middle h2 {
+    font-family: Times New Roman, Courier, Consolas, monaco;
+    font-size: 2.6rem;
+}
+
+#footer {
+    width: 100%;
+    color: #FFF;
+    float: left;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    margin: 20px 0;
+    /* background-color: blue; */
+}
+
+.telek {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+    padding-top: 60px;
+}
+
+.telek-wedush {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; 
+    border: 1px solid #888;
+    width: 35%; 
+}
+
+}
+
+.container {
+    padding: 16px;
+}
+
+#top{
+}
+
+.topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+}
+
+button {
+    background-color: rgba(0,0,0,0.1);
+    color: white;
+    padding: 10px 10px;
+    margin: 20px 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    border-radius: 50%;
+}
