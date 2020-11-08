@@ -1,6 +1,6 @@
 # 二〇二三年高考倒计时
 
-- [Demo](https://tangsanshi.top/Countdowm-NMET/)
+- [Demo](https://sanksu.top/Countdowm-NMET/)
 
 - 总会快一秒 d:
 
