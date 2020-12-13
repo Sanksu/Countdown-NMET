@@ -32,5 +32,5 @@ function TimeDown(id, endDateStr) {
     //延迟一秒执行自己
     setTimeout(function () {
         TimeDown(id, endDateStr);
-    }, 1000)
+    }, 100)
 }
