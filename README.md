@@ -1,4 +1,4 @@
-# 二〇二三年高考倒计时
+# 二〇二五年高考倒计时
 
 - [Demo](https://sanksu.top/Countdown-NMET/)
 
